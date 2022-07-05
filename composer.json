@@ -1,6 +1,7 @@
 {
-    "name": "mpak/bitrixtools",
+    "name": "mpakfm/bitrixtools",
     "description": "Bitrix Tools",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -15,5 +16,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php":">=7.0.0"
+    }
 }
