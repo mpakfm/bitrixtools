@@ -1,0 +1,19 @@
+{
+    "name": "mpak/bitrixtools",
+    "description": "Bitrix Tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mpak\\Bitrixtools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Fomin",
+            "email": "sfomin@synergy.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
