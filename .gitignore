@@ -1,2 +1,7 @@
 .idea/
+/bitrix/
+/log/
 /vendor/
+
+.php-cs-fixer.cache
+.phpunit.result.cache

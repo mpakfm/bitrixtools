@@ -6,7 +6,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mpak\\Bitrixtools\\": "src/"
+            "Mpakfm\\Bitrixtools\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     "authors": [
@@ -17,6 +18,15 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php":">=7.0.0"
+        "php":">=7.4.0",
+        "phpunit/phpunit": "8.5",
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "mpakfm/printu": "^2.0",
+        "andreyryabin/sprint.migration": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
